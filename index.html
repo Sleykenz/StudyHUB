@@ -199,7 +199,7 @@
                     {
                         method: 'POST',
                         headers: {
-                            Authorization: 'Bearer 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',
+                            Authorization: 'Bearer ${process.env.OPENROUTER_API_KEY}',
                             'Content-Type': 'application/json',
                         },
                         body: JSON.stringify({
